@@ -40,49 +40,6 @@ I don't just build models — I ship **production-ready AI systems** with attent
 
 ---
 
-## 💡 Engineering Highlights (From My Repos)
-
-### 📊 Spectrum Pricing Model (MoTP Project)
-```python
-# Ridge regression achieved 92% accuracy on 100K+ records
-from sklearn.linear_model import RidgeCV
-model = RidgeCV(alphas=np.logspace(-3, 3, 100), cv=5)
-model.fit(X_train_scaled, y_train)
-print(f"R² Score: {model.score(X_test_scaled, y_test):.3f}")  # 0.921
-```
-✅ Clean EDA notebooks with Pandas profiling  
-✅ Feature engineering documented in `FEATURES.md`  
-✅ Model comparison table (Linear/Ridge/Lasso/RF/SVR)
-
-### ⚡ pgvector Optimization (Scholarar Internship)
-```sql
--- Before: 200ms query latency
-CREATE INDEX ON scholarships USING ivfflat (embedding vector_cosine_ops) 
-WITH (lists = 100);
-
--- After: 20ms query latency (10× faster)
-CREATE INDEX ON scholarships USING hnsw (embedding vector_cosine_ops);
-```
-✅ Docker Compose setup for pgvector isolation  
-✅ Benchmark scripts comparing IVFFlat vs HNSW  
-✅ OpenAPI spec for recommendation API
-
-### 🖊️ Khmer Handwriting Data Pipeline
-```python
-# Streamlit UI capturing stroke coordinates in real-time
-def capture_strokes(canvas):
-    strokes = []
-    for stroke in canvas.json_data["objects"]:
-        points = [(p["x"], p["y"]) for p in stroke["path"]]
-        strokes.append(points)
-    return strokes  # → Saved as (x,y,t) sequences for LSTM training
-```
-✅ Unicode normalization for Khmer script (U+1780–U+17FF)  
-✅ Data validation to reject incomplete characters  
-✅ Dataset versioning with DVC
-
----
-
 ## 🛠️ Tech Stack Deep Dive
 
 ### AI/ML Engineering
