@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Ty Kana (@Nagamiji)
+# 👋 Hi, I'm Kana (@Nagamiji)
 
 ### 🇰🇭 Building Production AI Systems for Khmer Language & Public Impact
 > Data Scientist | AI Engineer | Lifelong Learner
