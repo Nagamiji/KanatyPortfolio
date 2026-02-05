@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Kana (@Nagamiji)
 
 ### 🇰🇭 Building Production AI Systems for Khmer Language & Public Impact
-> Data Scientist | AI Engineer | Lifelong Learner
+> Junior Data Scientist | Junior AI Engineer | Lifelong Learner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kana-ty-3080a42aa/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://portfolio-ecru-alpha-16.vercel.app/)
