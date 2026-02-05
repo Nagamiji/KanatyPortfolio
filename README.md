@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Ty Kana (@Nagamiji)
 
 ### 🇰🇭 Building Production AI Systems for Khmer Language & Public Impact
-> Senior Data Science Student @ ITC (GPA: 4.0) | AI Engineer | Lifelong Learner
+> Data Scientist | AI Engineer | Lifelong Learner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kana-ty-3080a42aa/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://portfolio-ecru-alpha-16.vercel.app/)
@@ -36,7 +36,7 @@ I don't just build models — I ship **production-ready AI systems** with:
 - Developed **One-Click Apply Pipeline** with async processing and comprehensive logging
 - Owned end-to-end ML workflows from data ingestion to model deployment
 
-### 🔬 Project Lead & Researcher @ ITC (Khmer Penpil AI)
+### 🔬  & Researcher assistant @ ITC (Khmer Penpil AI)
 **March 2025 – October 2025 | Phnom Penh, Cambodia**
 
 - Led development of **Khmer handwriting recognition system** processing 15K+ samples
@@ -79,68 +79,6 @@ I don't just build models — I ship **production-ready AI systems** with:
 
 ---
 
-## 💡 Engineering Highlights
-
-### 📊 Spectrum Pricing Model (MoTP Project)
-```python
-# Ridge regression achieved 92% R² score on 100K+ telecom records
-from sklearn.linear_model import RidgeCV
-model = RidgeCV(alphas=np.logspace(-3, 3, 100), cv=5)
-model.fit(X_train_scaled, y_train)
-print(f"R² Score: {model.score(X_test_scaled, y_test):.3f}")  # 0.921
-```
-✅ Clean EDA notebooks with Pandas profiling  
-✅ Feature engineering documented in separate files  
-✅ Model comparison across 5 algorithms (Linear/Ridge/Lasso/RF/SVR)
-
-### ⚡ pgvector Optimization (Scholarar Internship)
-```sql
--- Before: 200ms query latency
-CREATE INDEX ON scholarships USING ivfflat (embedding vector_cosine_ops) 
-WITH (lists = 100);
-
--- After: 20ms query latency (10× faster with HNSW)
-CREATE INDEX ON scholarships USING hnsw (embedding vector_cosine_ops);
-```
-✅ Docker Compose setup for pgvector isolation  
-✅ Benchmark scripts comparing IVFFlat vs HNSW indexing  
-✅ OpenAPI spec for recommendation API endpoints
-
-### 🖊️ Khmer Handwriting Data Pipeline
-```python
-# Streamlit UI capturing stroke coordinates in real-time
-def capture_strokes(canvas):
-    strokes = []
-    for stroke in canvas.json_data["objects"]:
-        points = [(p["x"], p["y"]) for p in stroke["path"]]
-        strokes.append(points)
-    return strokes  # → Saved as (x,y,t) sequences for LSTM training
-```
-✅ Unicode normalization for Khmer script (U+1780–U+17FF)  
-✅ Data validation to reject incomplete or malformed characters  
-✅ Dataset versioning with DVC for reproducibility
-
-### 🎯 NER with Few-Shot Learning (Workingna ATS)
-```python
-# Extract skills from resumes using Vertex AI + function calling
-from vertexai.generative_models import FunctionDeclaration, GenerativeModel
-
-skill_extraction = FunctionDeclaration(
-    name="extract_skills",
-    description="Extract technical skills and years of experience from resume text",
-    parameters={...}
-)
-
-model = GenerativeModel("gemini-1.5-pro", tools=[skill_extraction])
-response = model.generate_content(resume_text)
-skills = response.candidates[0].function_calls[0].args
-```
-✅ Integrated with FastAPI for production deployment  
-✅ Async processing for bulk resume parsing  
-✅ Comprehensive error handling and retry mechanisms
-
----
-
 ## 🛠️ Tech Stack
 
 ### AI/ML Engineering
@@ -177,16 +115,10 @@ Built IoT-based security system with AI threat detection at 5-day cybersecurity 
 
 ---
 
-## 📊 GitHub Stats
-
-![Kana's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nagamiji&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nagamiji&layout=compact&theme=radical&langs_count=8)
-
----
-
 ## 🌱 Currently Learning
 
 - Advanced NLP techniques for low-resource languages
+- AI intergration and AI application building
 - MLOps best practices (MLflow, model monitoring)
 - Distributed training for large-scale deep learning
 - Graph neural networks for recommendation systems
