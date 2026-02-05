@@ -68,7 +68,6 @@ I don't just build models — I ship **production-ready AI systems** with:
 |------|----------------|------------|
 | [`khmer_stopword_removal_system`](https://github.com/Nagamiji/khmer_stopword_removal_system) | Production-ready NLP pipeline for low-resource Khmer language | Python, Regex, Unicode normalization |
 | [`article_classifier`](https://github.com/Nagamiji/article_classifier) | Embedding-based classification with custom preprocessing | Transformers, scikit-learn, FastAPI |
-| *Coming soon* | Khmer digit recognition dataset + LSTM/GRU models | PyTorch, Streamlit, Attention mechanisms |
 
 ### 🤖 Production AI Systems
 | Repo | What It Proves | Tech Stack |
