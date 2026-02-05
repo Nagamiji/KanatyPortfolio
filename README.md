@@ -62,13 +62,6 @@ I don't just build models — I ship **production-ready AI systems** with attent
 
 ---
 
-## 📊 GitHub Activity
-
-![Kana's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nagamiji&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nagamiji&layout=compact&theme=radical&langs_count=8)
-
----
-
 ## 🤝 Let's Build Together
 
 I'm actively seeking **Data Science / AI Engineer roles** where I can:
