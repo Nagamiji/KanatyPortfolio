@@ -11,14 +11,13 @@
 
 ## 🚀 Why My Code Stands Out
 
-I don't just build models — I ship **production-ready AI systems** with attention to:
+I have experiened working with:
 
 ✅ **MLOps rigor**: Dockerized environments, async processing, comprehensive logging  
 ✅ **Low-resource optimization**: 96% accuracy on Khmer digit recognition with efficient architectures (LSTM/GRU)  
 ✅ **Vector search expertise**: pgvector + OpenAI embeddings for semantic retrieval (10× faster queries)  
 ✅ **Full-stack ownership**: From data collection (Streamlit UIs) → model training → FastAPI deployment  
 
-> *"My Khmer digit recognition system processes 15K+ handwritten samples — built entirely in Cambodia, for Cambodia."*
 
 ---
 
