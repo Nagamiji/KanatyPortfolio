@@ -3,8 +3,8 @@
 ### 🇰🇭 Building Production AI Systems for Khmer Language & Public Impact
 > Data Scientist | AI Engineer | Open Source Contributor
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://portfolio-ecru-alpha-16.vercel.app/)
+[![LinkedIn](https://www.linkedin.com/in/kana-ty-3080a42aa/)
+[![Portfolio](https://portfolio-ecru-alpha-16.vercel.app/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:kanaty0153@gmail.com)
 
 ---
